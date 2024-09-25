@@ -74,4 +74,4 @@ Setup Procedure:
 
 3.Setup up the database by importing the sql file in the MySQL(phpMyAdmin) through Xampp Control Panel.
 
-4.Run the application using "python app.py" in the command line.
+4.Run the application using "python FACE AND EMOITION ANALYSIS.py" in the command line.
