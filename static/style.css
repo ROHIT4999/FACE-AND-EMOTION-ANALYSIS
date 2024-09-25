@@ -1,0 +1,39 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Styling for the heading */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styling for the image/video */
+img {
+    border: 5px solid #2c3e50;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding around the video/image */
+img {
+    padding: 10px;
+}
+
+/* Add a subtle hover effect on the video/image */
+img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
